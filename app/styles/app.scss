@@ -1,0 +1,16 @@
+@import "base/variables";
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+h1{
+  color: $red;
+  text-align: center;
+}
+
+.show-grid {
+  border: 1px solid #777;
+}
+.upper-sapace{
+  margin-top: 10%;
+}
