@@ -60,6 +60,7 @@ class TodoApp extends React.Component {
           <Col xs={12} md={3}></Col>
           <Col xs={12} md={6} className="show-grid">
             <h1>Todo App with react-bootstrap </h1>
+            <p>- Aman Soni</p>
             <SearchTodo handleSearch={this.handleSearch}/>
             <TodoList todos={filteredTodo} handleTodoCompleted={this.handleTodoCompleted}/>
             <AddTodoForm handleAddTodo={this.handleAddTodo}/>
